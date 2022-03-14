@@ -4,9 +4,10 @@ import * as _ from 'lodash'
 @Component({
   selector: 'app-list-resto',
   templateUrl: './list-resto.component.html',
-  styleUrls: ['./list-resto.component.css']
+  styleUrls: ['./list-resto.component.css'],
 })
 export class ListRestoComponent implements OnInit {
+<<<<<<< HEAD
   name: string;
   searchValue: any;
 
@@ -52,6 +53,22 @@ sourceFile :any = [];
 // }
 
 
+=======
+  collection: any = [];
+
+  constructor(private resto: RestoService) {}
+
+  ngOnInit(): void {
+    this.resto.getList().subscribe((result) => {
+      this.collection = result;
+    });
+  }
+
+  deleteResto(list: any) {
+    console.warn(list);
+    this.resto.DeleteResto(list).subscribe((result) => {
+      this.collection.splice(list - 1, 1);
+    });
+  }
+>>>>>>> 5005402d8b99c1fc06e468ee60c874dcb099ce53
 }
-
-
