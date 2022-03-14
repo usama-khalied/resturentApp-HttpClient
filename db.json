@@ -1,34 +1,28 @@
 {
   "resturents": [
     {
-      "name": "3rewrewr",
+      "name": "Usama",
       "email": "usamakhalied@gmail.com",
-      "address": "ewrewrewrewrew",
+      "address": "Tariq Road",
       "id": 1
     },
     {
-      "name": "Anus",
-      "email": "anusImran@gmail.com",
-      "address": "djasdkaddad",
+      "name": "Anus ",
+      "email": "anus@gmail.com",
+      "address": "Tariq Road",
       "id": 2
     },
     {
-      "name": "dfdsf",
-      "email": "uzaierdonkhalied@gmail.com",
-      "address": ";fefewfrweff",
+      "name": "Uzaier ",
+      "email": "uzaierkhaleid@gmail.com",
+      "address": "Tariq Road",
       "id": 3
     },
     {
-      "name": "Usama khalied",
-      "email": "usamakhalied@gmail.com",
-      "address": "ghghghghghhg",
+      "name": "Tayyaba ",
+      "email": "tayyabakhalied@gmail.com",
+      "address": null,
       "id": 4
-    },
-    {
-      "name": "usama khalied",
-      "email": "usamakhaleid@gmail.com",
-      "address": "744 c commercial area tariq road karachi pk",
-      "id": 5
     }
   ],
   "users": [
