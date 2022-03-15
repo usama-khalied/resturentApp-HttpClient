@@ -11,6 +11,7 @@ import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { FullDetailedComponent } from './full-detailed/full-detailed.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     ListRestoComponent,
     LoginComponent,
     RegisterComponent,
+    FullDetailedComponent,
   ],
   imports: [
     BrowserModule,
