@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "resturents": [
     {
       "name": "Usama",
@@ -26,9 +25,6 @@
       "id": 4
     }
   ],
-=======
-  "resturents": [],
->>>>>>> 5005402d8b99c1fc06e468ee60c874dcb099ce53
   "users": [
     {
       "name": "wfcedcf",
