@@ -1,28 +1,31 @@
-<input type="text">
+<input type="text" [(ngModel)]="term" />
 
-<h1> Listing Resturent</h1>
-  <table  class="table" border="0">
-    <thead>
-      <tr border="0">
-        <th scope="col">No.</th>
-        <th scope="col">Name</th>
-        <th scope="col">Address</th>
-        <th scope="col">Email</th>
-        <th scope="col"> Operation</th>
-      </tr>
-    </thead>
+<h1>Listing Resturent</h1>
+<table class="table" border="0">
+  <thead>
+    <tr border="0">
+      <th scope="col">No.</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Operation</th>
+    </tr>
+  </thead>
 
-      <tr  *ngFor="let list of collection">
-        <td>{{list.id}} </td>
-        <td> {{list.name}}</td>
-        <td> {{list.address}}</td>
-        <td> {{list.email}}</td>
-        <td> <i (click)="deleteResto(list.id)" style="color: red;" class="fa fa-trash"></i>
-          <a routerLink="/update/{{list.id}}"> <i  style="color: green;" class="fa fa-edit"></i> </a>
-        </td>
-
-      </tr>
-   
-  </table>
-  
- 
+  <tr *ngFor="let list of collection | filter: term">
+    <td>{{ list.id }}</td>
+    <td>{{ list.name }}</td>
+    <td>{{ list.address }}</td>
+    <td>{{ list.email }}</td>
+    <td>
+      <i
+        (click)="deleteResto(list.id)"
+        style="color: red"
+        class="fa fa-trash"
+      ></i>
+      <a routerLink="/update/{{ list.id }}">
+        <i style="color: green" class="fa fa-edit"></i>
+      </a>
+    </td>
+  </tr>
+</table>
