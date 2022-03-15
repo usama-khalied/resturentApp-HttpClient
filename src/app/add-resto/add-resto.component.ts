@@ -19,6 +19,7 @@ export class AddRestoComponent implements OnInit {
     hobies: new FormControl(''),
     telephoneNo: new FormControl(''),
     Skills: new FormControl(''),
+    gender: new FormControl(''),
   });
   constructor(private resto: RestoService) {}
   collectResto() {
