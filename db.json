@@ -1,5 +1,66 @@
 {
-  "resturents": [],
+  "resturents": [
+    {
+      "name": "Usama",
+      "email": "fwefj",
+      "address": "isfjwefwej",
+      "department": "male",
+      "education": "inter",
+      "fathername": "wefwefwe",
+      "hobies": "usama",
+      "telephoneNo": "3rewrewr",
+      "Skills": "usama",
+      "id": 1
+    },
+    {
+      "name": "Anus",
+      "email": "dfwefew",
+      "address": "dsfkfien",
+      "department": "male",
+      "education": "inter",
+      "fathername": "qwdqdqwd",
+      "hobies": "wfdwefwef",
+      "telephoneNo": "wefwe",
+      "Skills": "fwefwef",
+      "id": 2
+    },
+    {
+      "name": null,
+      "email": null,
+      "address": null,
+      "department": null,
+      "education": null,
+      "fathername": null,
+      "hobies": null,
+      "telephoneNo": null,
+      "Skills": "fwefwef",
+      "id": 3
+    },
+    {
+      "name": "Uzaier",
+      "email": "uzaierkhalied",
+      "address": "wedfjwnido",
+      "department": "male",
+      "education": "inter",
+      "fathername": "dewfwef",
+      "hobies": "wefwefwe",
+      "telephoneNo": "ewfwfw",
+      "Skills": "usama",
+      "id": 4
+    },
+    {
+      "name": "fewfwef",
+      "email": "wefwf",
+      "address": "efwf",
+      "department": "male",
+      "education": "inter",
+      "fathername": "fwefwef",
+      "hobies": "fewfwe",
+      "telephoneNo": "fwefw",
+      "Skills": "fwefw",
+      "id": 5
+    }
+  ],
   "users": [
     {
       "name": "wfcedcf",
