@@ -8,21 +8,27 @@
     },
     {
       "name": "Anus ",
-      "email": "anus@gmail.com",
-      "address": "Tariq Road",
+      "email": "anusimran@gmail.com",
+      "address": "Tari Road ",
       "id": 2
     },
     {
-      "name": "Uzaier ",
-      "email": "uzaierkhaleid@gmail.com",
-      "address": "Tariq Road",
+      "name": "Uzaier Khalied ",
+      "email": "uzaierkhalied@gmail.com",
+      "address": "New Karachi ",
       "id": 3
     },
     {
-      "name": "Tayyaba ",
-      "email": "tayyabakhalied@gmail.com",
-      "address": null,
+      "name": "Saifi ",
+      "email": "saifi@gmail.com",
+      "address": "Lines area ",
       "id": 4
+    },
+    {
+      "name": "Wasif Rajput ",
+      "email": "wasifrajput@gmail.com",
+      "address": "Lines area ",
+      "id": 5
     }
   ],
   "users": [
