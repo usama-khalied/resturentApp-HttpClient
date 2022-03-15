@@ -8,8 +8,9 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import {ReactiveFormsModule} from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,19 +19,16 @@ import { FormsModule } from '@angular/forms';
     ListRestoComponent,
     LoginComponent,
     RegisterComponent,
-    
-  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-   FormsModule
-  
- 
+    FormsModule,
+    Ng2SearchPipeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
