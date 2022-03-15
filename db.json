@@ -1,14 +1,5 @@
 {
-  "resturents": [
-    {
-      "name": "Usama",
-      "email": "usamakhalied@gmail.com",
-      "address": "Tariq Road",
-      "department": "male",
-      "education": "inter",
-      "id": 1
-    }
-  ],
+  "resturents": [],
   "users": [
     {
       "name": "wfcedcf",
