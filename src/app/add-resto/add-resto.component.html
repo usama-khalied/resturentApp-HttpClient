@@ -54,14 +54,14 @@
       {{ state.abbrev }}
     </option> -->
     <label for="gender"> Select gender </label>
-    <select name="gender" id="cars" formControlName="department">
+    <select name="gender" id="cars" formControlName="department" required>
       <option value="male">male</option>
       <option value="female">female</option>
       <option value="transgender">transgender</option>
     </select>
     <br />
     <label for="education"> Education </label>
-    <select name="education" id="cars" formControlName="education">
+    <select name="education" id="cars" formControlName="education" required>
       <option value="matric">matric</option>
       <option value="inter">inter</option>
       <option value="graduation">graduation</option>
