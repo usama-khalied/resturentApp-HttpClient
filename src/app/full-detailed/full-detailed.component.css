@@ -1,5 +1,7 @@
 .detailed {
   display: flex;
+  flex-direction: column;
+  height: 90vh;
 }
 .detailed p {
   margin: 0 0.6rem;
