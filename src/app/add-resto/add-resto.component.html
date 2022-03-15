@@ -51,21 +51,6 @@
         aria-describedby="emailHelp"
         required
       />
-
-      <label for="gender"> gender </label>
-      <select name="gender" id="cars" formControlName="department" required>
-        <option value="male">male</option>
-        <option value="female">female</option>
-        <option value="transgender">transgender</option>
-      </select>
-      <br />
-      <label for="education"> Education </label>
-      <select name="education" id="cars" formControlName="education" required>
-        <option value="matric">matric</option>
-        <option value="inter">inter</option>
-        <option value="graduation">graduation</option>
-        <option value="master">master</option>
-      </select>
     </div>
   </div>
   <div class="personal-detailed" *ngIf="variable == 2">
@@ -108,6 +93,20 @@
       aria-describedby="emailHelp"
       required
     />
+    <label for="gender"> gender </label>
+    <select name="gender" id="cars" formControlName="department" required>
+      <option value="male">male</option>
+      <option value="female">female</option>
+      <option value="transgender">transgender</option>
+    </select>
+    <br />
+    <label for="education"> Education </label>
+    <select name="education" id="cars" formControlName="education" required>
+      <option value="matric">matric</option>
+      <option value="inter">inter</option>
+      <option value="graduation">graduation</option>
+      <option value="master">master</option>
+    </select>
   </div>
 
   <br />
