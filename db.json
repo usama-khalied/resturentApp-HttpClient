@@ -78,6 +78,19 @@
       "Skills": "dewwfw",
       "gender": "",
       "id": 7
+    },
+    {
+      "name": "Tahir ",
+      "email": "tahir@gmail.com",
+      "address": "Korangi",
+      "department": "male",
+      "education": "inter",
+      "fathername": "wefwefwe",
+      "hobies": "usama",
+      "telephoneNo": "3rewrewr",
+      "Skills": "usama",
+      "gender": "female",
+      "id": 8
     }
   ],
   "users": [
