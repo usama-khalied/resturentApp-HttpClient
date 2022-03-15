@@ -50,6 +50,23 @@
       aria-describedby="emailHelp"
       required
     />
+    <!-- <option *ngFor="let state of states" [ngValue]="state">
+      {{ state.abbrev }}
+    </option> -->
+    <label for="gender"> Select gender </label>
+    <select name="gender" id="cars" formControlName="department">
+      <option value="male">male</option>
+      <option value="female">female</option>
+      <option value="transgender">transgender</option>
+    </select>
+    <br />
+    <label for="education"> Education </label>
+    <select name="education" id="cars" formControlName="education">
+      <option value="matric">matric</option>
+      <option value="inter">inter</option>
+      <option value="graduation">graduation</option>
+      <option value="master">master</option>
+    </select>
   </div>
   <button [disabled]="addResto.invalid" type="submit" class="btn btn-primary">
     Submit
