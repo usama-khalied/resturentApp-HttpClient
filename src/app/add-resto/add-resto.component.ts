@@ -7,6 +7,7 @@ import { RestoService } from '../shared/resto.service';
   styleUrls: ['./add-resto.component.css'],
 })
 export class AddRestoComponent implements OnInit {
+  variable: number = 1;
   alert: boolean = false;
   addResto = new FormGroup({
     name: new FormControl(''),
@@ -26,5 +27,11 @@ export class AddRestoComponent implements OnInit {
   ngOnInit(): void {}
   closeAlert() {
     this.alert = false;
+  }
+  next() {
+    this.variable += 1; //variable = variable1 + 1 = 2
+  }
+  previouse() {
+    this.variable -= 1; //variable = variable3 - 1 = 2
   }
 }
