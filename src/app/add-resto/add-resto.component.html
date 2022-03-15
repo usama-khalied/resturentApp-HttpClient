@@ -18,57 +18,80 @@
   [formGroup]="addResto"
   (ngSubmit)="collectResto()"
 >
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label"> Name</label>
-    <input
-      formControlName="name"
-      type="text"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      required
-    />
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input
-      formControlName="email"
-      type="email"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      required
-    />
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label"> address </label>
-    <input
-      formControlName="address"
-      type="text"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      required
-    />
-    <!-- <option *ngFor="let state of states" [ngValue]="state">
+  <div class="first-div" *ngIf="variable == 1">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"> Name</label>
+      <input
+        formControlName="name"
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input
+        formControlName="email"
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"> address </label>
+      <input
+        formControlName="address"
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        required
+      />
+      <!-- <option *ngFor="let state of states" [ngValue]="state">
       {{ state.abbrev }}
     </option> -->
-    <label for="gender"> Select gender </label>
-    <select name="gender" id="cars" formControlName="department" required>
-      <option value="male">male</option>
-      <option value="female">female</option>
-      <option value="transgender">transgender</option>
-    </select>
-    <br />
-    <label for="education"> Education </label>
-    <select name="education" id="cars" formControlName="education" required>
-      <option value="matric">matric</option>
-      <option value="inter">inter</option>
-      <option value="graduation">graduation</option>
-      <option value="master">master</option>
-    </select>
+      <label for="gender"> gender </label>
+      <select name="gender" id="cars" formControlName="department" required>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="transgender">transgender</option>
+      </select>
+      <br />
+      <label for="education"> Education </label>
+      <select name="education" id="cars" formControlName="education" required>
+        <option value="matric">matric</option>
+        <option value="inter">inter</option>
+        <option value="graduation">graduation</option>
+        <option value="master">master</option>
+      </select>
+    </div>
   </div>
-  <button [disabled]="addResto.invalid" type="submit" class="btn btn-primary">
+  <div class="personal-detailed" *ngIf="variable == 2">
+    <h2>Form 2</h2>
+  </div>
+  <div class="personal-detailed" *ngIf="variable == 3">
+    <h2>Form 3</h2>
+  </div>
+  <button
+    *ngIf="variable == 3"
+    [disabled]="addResto.invalid"
+    type="submit"
+    class="btn btn-primary"
+  >
     Submit
   </button>
+  <button
+    *ngIf="variable > 1"
+    (click)="previouse()"
+    type="button"
+    class="btn btn-primary"
+  >
+    Previouse
+  </button>
+
+  <button (click)="next()" type="button" class="btn btn-primary">Next</button>
 </form>
