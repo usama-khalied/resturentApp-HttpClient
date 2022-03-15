@@ -52,13 +52,32 @@
       "name": "fewfwef",
       "email": "wefwf",
       "address": "efwf",
+      "id": 5
+    },
+    {
+      "name": "usama",
+      "email": "usamakhalied@gmail.com",
+      "address": "tARIQ rAOD",
       "department": "male",
       "education": "inter",
-      "fathername": "fwefwef",
-      "hobies": "fewfwe",
-      "telephoneNo": "fwefw",
-      "Skills": "fwefw",
-      "id": 5
+      "fathername": "KHALIEDmEHMOOD",
+      "hobies": "eDITTING",
+      "telephoneNo": "0322323222",
+      "Skills": "dfdsf",
+      "id": 6
+    },
+    {
+      "name": "wefwefwe",
+      "email": "usama",
+      "address": "dfdsf",
+      "department": "male",
+      "education": "inter",
+      "fathername": "wefwefwe",
+      "hobies": "usama",
+      "telephoneNo": "3rewrewr",
+      "Skills": "dewwfw",
+      "gender": "",
+      "id": 7
     }
   ],
   "users": [
@@ -79,6 +98,12 @@
       "email": "Anus",
       "password": "sdada",
       "id": 3
+    },
+    {
+      "name": "usama",
+      "email": "usama",
+      "password": "trertre",
+      "id": 4
     }
   ]
 }
