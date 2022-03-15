@@ -7,7 +7,7 @@ import { RestoService } from '../shared/resto.service';
   styleUrls: ['./add-resto.component.css'],
 })
 export class AddRestoComponent implements OnInit {
-  variable: number = 1;
+  variable: any = 1;
   alert: boolean = false;
   addResto = new FormGroup({
     name: new FormControl(''),
@@ -15,12 +15,17 @@ export class AddRestoComponent implements OnInit {
     address: new FormControl(''),
     department: new FormControl(''),
     education: new FormControl(''),
+    fathername: new FormControl(''),
+    hobies: new FormControl(''),
+    telephoneNo: new FormControl(''),
+    Skills: new FormControl(''),
   });
   constructor(private resto: RestoService) {}
   collectResto() {
     this.resto.saveResto(this.addResto.value).subscribe((result) => {
       this.alert = true;
       this.resto.getList();
+      this.variable = 1;
     });
     this.addResto.reset();
   }
