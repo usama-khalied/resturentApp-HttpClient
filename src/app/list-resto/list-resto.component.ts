@@ -8,7 +8,7 @@ import * as _ from 'lodash';
 })
 export class ListRestoComponent implements OnInit {
   collection: any = [];
-
+  term: string;
   constructor(private resto: RestoService) {}
 
   ngOnInit(): void {
