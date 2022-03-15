@@ -51,9 +51,7 @@
         aria-describedby="emailHelp"
         required
       />
-      <!-- <option *ngFor="let state of states" [ngValue]="state">
-      {{ state.abbrev }}
-    </option> -->
+
       <label for="gender"> gender </label>
       <select name="gender" id="cars" formControlName="department" required>
         <option value="male">male</option>
@@ -71,11 +69,48 @@
     </div>
   </div>
   <div class="personal-detailed" *ngIf="variable == 2">
-    <h2>Form 2</h2>
+    <label for="exampleInputEmail1" class="form-label">Father Name</label>
+    <input
+      formControlName="fathername"
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      required
+    />
+    <label for="exampleInputEmail1" class="form-label"> hobbies</label>
+    <input
+      formControlName="hobies"
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      required
+    />
+    <label for="exampleInputEmail1" class="form-label"> Telephone No</label>
+    <input
+      formControlName="telephoneNo"
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      required
+    />
   </div>
-  <div class="personal-detailed" *ngIf="variable == 3">
-    <h2>Form 3</h2>
+
+  <div class="heading" *ngIf="variable == 3">
+    <p>form 3 submi t</p>
+    <input
+      formControlName="Skills"
+      type="text"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      required
+    />
   </div>
+
+  <br />
   <button
     *ngIf="variable == 3"
     [disabled]="addResto.invalid"
@@ -93,5 +128,13 @@
     Previouse
   </button>
 
-  <button (click)="next()" type="button" class="btn btn-primary">Next</button>
+  <button
+    (click)="next()"
+    type="button"
+    class="btn btn-primary"
+    [disabled]="addResto.invalid"
+    *ngIf="variable < 3"
+  >
+    Next
+  </button>
 </form>
