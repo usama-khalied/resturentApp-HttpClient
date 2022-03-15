@@ -4,31 +4,9 @@
       "name": "Usama",
       "email": "usamakhalied@gmail.com",
       "address": "Tariq Road",
+      "department": "male",
+      "education": "inter",
       "id": 1
-    },
-    {
-      "name": "Anus ",
-      "email": "anusimran@gmail.com",
-      "address": "Tari Road ",
-      "id": 2
-    },
-    {
-      "name": "Uzaier Khalied ",
-      "email": "uzaierkhalied@gmail.com",
-      "address": "New Karachi ",
-      "id": 3
-    },
-    {
-      "name": "Saifi ",
-      "email": "saifi@gmail.com",
-      "address": "Lines area ",
-      "id": 4
-    },
-    {
-      "name": "Wasif Rajput ",
-      "email": "wasifrajput@gmail.com",
-      "address": "Lines area ",
-      "id": 5
     }
   ],
   "users": [
