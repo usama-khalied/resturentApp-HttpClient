@@ -2,95 +2,16 @@
   "resturents": [
     {
       "name": "Usama",
-      "email": "fwefj",
-      "address": "isfjwefwej",
-      "department": "male",
-      "education": "inter",
-      "fathername": "wefwefwe",
-      "hobies": "usama",
-      "telephoneNo": "3rewrewr",
-      "Skills": "usama",
-      "id": 1
-    },
-    {
-      "name": "Anus",
-      "email": "dfwefew",
-      "address": "dsfkfien",
-      "department": "male",
-      "education": "inter",
-      "fathername": "qwdqdqwd",
-      "hobies": "wfdwefwef",
-      "telephoneNo": "wefwe",
-      "Skills": "fwefwef",
-      "id": 2
-    },
-    {
-      "name": null,
-      "email": null,
-      "address": null,
-      "department": null,
-      "education": null,
-      "fathername": null,
-      "hobies": null,
-      "telephoneNo": null,
-      "Skills": "fwefwef",
-      "id": 3
-    },
-    {
-      "name": "Uzaier",
-      "email": "uzaierkhalied",
-      "address": "wedfjwnido",
-      "department": "male",
-      "education": "inter",
-      "fathername": "dewfwef",
-      "hobies": "wefwefwe",
-      "telephoneNo": "ewfwfw",
-      "Skills": "usama",
-      "id": 4
-    },
-    {
-      "name": "fewfwef",
-      "email": "wefwf",
-      "address": "efwf",
-      "id": 5
-    },
-    {
-      "name": "usama",
       "email": "usamakhalied@gmail.com",
-      "address": "tARIQ rAOD",
-      "department": "male",
-      "education": "inter",
-      "fathername": "KHALIEDmEHMOOD",
-      "hobies": "eDITTING",
-      "telephoneNo": "0322323222",
-      "Skills": "dfdsf",
-      "id": 6
-    },
-    {
-      "name": "wefwefwe",
-      "email": "usama",
-      "address": "dfdsf",
-      "department": "male",
-      "education": "inter",
-      "fathername": "wefwefwe",
-      "hobies": "usama",
-      "telephoneNo": "3rewrewr",
-      "Skills": "dewwfw",
-      "gender": "",
-      "id": 7
-    },
-    {
-      "name": "Tahir ",
-      "email": "tahir@gmail.com",
-      "address": "Korangi",
-      "department": "male",
-      "education": "inter",
-      "fathername": "wefwefwe",
-      "hobies": "usama",
-      "telephoneNo": "3rewrewr",
-      "Skills": "usama",
-      "gender": "female",
-      "id": 8
+      "address": "Tariq Road",
+      "department": "",
+      "education": "Inter",
+      "fathername": "Khalied Mehmood",
+      "hobies": "Editting",
+      "telephoneNo": "9292929292",
+      "Skills": "",
+      "gender": "male",
+      "id": 1
     }
   ],
   "users": [
