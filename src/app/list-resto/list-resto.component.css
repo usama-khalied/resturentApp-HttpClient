@@ -1,0 +1,12 @@
+input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+input::-moz-focus-outer {
+  outline: 0;
+  border: 0;
+}
+input::-moz-focus-inner {
+  outline: 0;
+  border: 0;
+}
