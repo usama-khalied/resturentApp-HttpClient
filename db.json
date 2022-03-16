@@ -12,6 +12,32 @@
       "Skills": "",
       "gender": "male",
       "id": 1
+    },
+    {
+      "name": "Anus",
+      "email": "anuskhaleid@gmail.com",
+      "address": "TAriq Raod",
+      "department": "",
+      "education": "Matric",
+      "fathername": "Khalied Mehmood",
+      "hobies": "Cricket",
+      "telephoneNo": "002022020",
+      "Skills": "",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "Uzaier",
+      "email": "uzaierkhalied@gmail.com",
+      "address": "Nazimabad",
+      "department": "",
+      "education": "Matric",
+      "fathername": "Khalied Mehmood",
+      "hobies": "Ghoomna",
+      "telephoneNo": "82828822",
+      "Skills": "",
+      "gender": "male",
+      "id": 3
     }
   ],
   "users": [
