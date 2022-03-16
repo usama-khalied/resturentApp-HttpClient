@@ -1,32 +1,81 @@
-<h1>Listing Resturent</h1>
-<input type="text" placeholder="Live search" [(ngModel)]="term" />
-<table class="table" border="0">
-  <thead>
-    <tr border="0">
-      <th scope="col">No.</th>
-      <th scope="col">Name</th>
-      <th scope="col">Address</th>
-      <th scope="col">Email</th>
-      <th scope="col">Operation</th>
-      <th scope="col">Action</th>
-    </tr>
-  </thead>
+<!-- new table add  -->
+<section
+  class="antialiased bg-gray-100 text-gray-600 h-screen px-4 from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br"
+>
+  <div class="flex flex-col justify-center h-full">
+    <!-- Table -->
+    <div
+      class="w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200 from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br"
+    >
+      <header class="px-8 py-6 border-b border-gray-100">
+        <h2 class="font-semibold text-gray-800">Customers</h2>
+        <input
+          class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+          type="text"
+          placeholder="Live search"
+          [(ngModel)]="term"
+        />
+      </header>
+      <div class="p-3">
+        <div class="overflow-x-auto">
+          <table class="table-auto w-full">
+            <thead
+              class="text-xs font-semibold uppercase text-gray-400 bg-gray-50"
+            >
+              <tr>
+                <th class="p-2 whitespace-nowrap">
+                  <div class="font-semibold text-left">id</div>
+                </th>
+                <th class="p-2 whitespace-nowrap">
+                  <div class="font-semibold text-left">name</div>
+                </th>
+                <th class="p-2 whitespace-nowrap">
+                  <div class="font-semibold text-center">email</div>
+                </th>
+                <th class="p-2 whitespace-nowrap">
+                  <div class="font-semibold text-center">Operation</div>
+                </th>
+                <th class="p-2 whitespace-nowrap">
+                  <div class="font-semibold text-center">More</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-sm divide-y divide-gray-100">
+              <tr *ngFor="let list of collection | filter: term">
+                <td class="p-2 whitespace-nowrap">
+                  <div class="flex items-center">
+                    <div class="font-medium text-gray-800">{{ list.id }}</div>
+                  </div>
+                </td>
+                <td class="p-2 whitespace-nowrap">
+                  <div class="text-left">{{ list.name }}</div>
+                </td>
 
-  <tr *ngFor="let list of collection | filter: term">
-    <td>{{ list.id }}</td>
-    <td>{{ list.name }}</td>
-    <td>{{ list.address }}</td>
-    <td>{{ list.email }}</td>
-    <td>
-      <i
-        (click)="deleteResto(list.id)"
-        style="color: red"
-        class="fa fa-trash"
-      ></i>
-      <a routerLink="/update/{{ list.id }}">
-        <i style="color: green" class="fa fa-edit"></i>
-      </a>
-    </td>
-    <td><li routerLink="/full-detailed">View Full List</li></td>
-  </tr>
-</table>
+                <td class="p-2 whitespace-nowrap">
+                  <div class="text-lg text-center">{{ list.email }}</div>
+                </td>
+                <td class="p-2 whitespace-nowrap">
+                  <div class="text-lg text-center">
+                    <i
+                      (click)="deleteResto(list.id)"
+                      style="color: red"
+                      class="fa fa-trash"
+                    ></i>
+                    <a routerLink="/update/{{ list.id }}">
+                      <i style="color: green" class="fa fa-edit"></i>
+                    </a>
+                  </div>
+                </td>
+                <td class="p-2 whitespace-nowrap">
+                  <div class="text-lg text-center">
+                    <p routerLink="/full-detailed">View</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
