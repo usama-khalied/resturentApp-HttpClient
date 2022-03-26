@@ -1,32 +1,6 @@
 {
   "resturents": [
     {
-      "name": "Usama",
-      "email": "usamakhalied@gmail.com",
-      "address": "Tariq Road",
-      "department": "",
-      "education": "Inter",
-      "fathername": "Khalied Mehmood",
-      "hobies": "Editting",
-      "telephoneNo": "9292929292",
-      "Skills": "",
-      "gender": "male",
-      "id": 1
-    },
-    {
-      "name": "Anus",
-      "email": "anuskhaleid@gmail.com",
-      "address": "TAriq Raod",
-      "department": "",
-      "education": "Matric",
-      "fathername": "Khalied Mehmood",
-      "hobies": "Cricket",
-      "telephoneNo": "002022020",
-      "Skills": "",
-      "gender": "male",
-      "id": 2
-    },
-    {
       "name": "Uzaier",
       "email": "uzaierkhalied@gmail.com",
       "address": "Nazimabad",
@@ -38,6 +12,19 @@
       "Skills": "",
       "gender": "male",
       "id": 3
+    },
+    {
+      "name": "Usama",
+      "email": "usamakhalied@gmail.com",
+      "address": "Tari Road",
+      "department": "",
+      "education": "Inter",
+      "fathername": "Khalied mehmood",
+      "hobies": "Footbasll",
+      "telephoneNo": "3123131",
+      "Skills": "",
+      "gender": "male",
+      "id": 4
     }
   ],
   "users": [
