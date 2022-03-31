@@ -29,6 +29,7 @@ import { FullDetailedComponent } from './full-detailed/full-detailed.component';
     ReactiveFormsModule,
     FormsModule,
     Ng2SearchPipeModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
