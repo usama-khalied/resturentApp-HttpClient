@@ -8,8 +8,8 @@ import { RestoService } from '../shared/resto.service';
 })
 export class AddRestoComponent implements OnInit {
   variable: any = 1;
-appointMentTime  : N
-// today : Date =  new Date();
+
+  // today : Date =  new Date();
 
   alert: boolean = false;
   addResto = new FormGroup({
@@ -33,14 +33,7 @@ appointMentTime  : N
     });
     this.addResto.reset();
   }
-  ngOnInit(): void {
-    Date myDate = new Date(
-      appointmentTime.year,
-      appointmentTime.month,
-      appointmentTime.day);
-
-
-  }
+  ngOnInit(): void {}
   closeAlert() {
     this.alert = false;
   }
