@@ -9,7 +9,11 @@ import { RestoService } from '../shared/resto.service';
 export class AddRestoComponent implements OnInit {
   variable: any = 1;
 
+<<<<<<< Updated upstream
   // today : Date =  new Date();
+=======
+
+>>>>>>> Stashed changes
 
   alert: boolean = false;
   addResto = new FormGroup({
@@ -33,7 +37,15 @@ export class AddRestoComponent implements OnInit {
     });
     this.addResto.reset();
   }
+<<<<<<< Updated upstream
   ngOnInit(): void {}
+=======
+  ngOnInit(): void {
+
+
+
+  }
+>>>>>>> Stashed changes
   closeAlert() {
     this.alert = false;
   }
