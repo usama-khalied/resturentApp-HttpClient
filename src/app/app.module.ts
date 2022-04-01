@@ -12,7 +12,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FullDetailedComponent } from './full-detailed/full-detailed.component';
+<<<<<<< Updated upstream
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+=======
+import { DateComponent } from './date/date.component';
+>>>>>>> Stashed changes
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     RegisterComponent,
     FullDetailedComponent,
+    DateComponent,
   ],
   imports: [
     BrowserModule,
