@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FullDetailedComponent } from './full-detailed/full-detailed.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { FullDetailedComponent } from './full-detailed/full-detailed.component';
     ReactiveFormsModule,
     FormsModule,
     Ng2SearchPipeModule,
+    BrowserAnimationsModule,
 
   ],
   providers: [],
