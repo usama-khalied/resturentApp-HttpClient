@@ -12,11 +12,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FullDetailedComponent } from './full-detailed/full-detailed.component';
-<<<<<<< Updated upstream
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-=======
-import { DateComponent } from './date/date.component';
->>>>>>> Stashed changes
+import { DatePiComponent } from './date-pi/date-pi.component';
+import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +24,8 @@ import { DateComponent } from './date/date.component';
     LoginComponent,
     RegisterComponent,
     FullDetailedComponent,
-    DateComponent,
+    DatePiComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -36,6 +35,7 @@ import { DateComponent } from './date/date.component';
     FormsModule,
     Ng2SearchPipeModule,
     BrowserAnimationsModule,
+    NgxDaterangepickerMd.forRoot()
 
   ],
   providers: [],
