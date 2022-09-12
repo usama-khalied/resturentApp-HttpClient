@@ -1,0 +1,29 @@
+<h1 appPracdirective>{{title}}</h1>
+
+
+<h2 [ngClass]=" isSpecial?addClass:''">testing  ngClass</h2>
+
+<h2 class="{{addClass}}"> Hellow Interpulation</h2>
+
+<h2 [ngStyle]="style">Testing ngStyle</h2>
+
+<input (change)="onChange()" type="text" [(ngModel)]="inputValue">
+
+<h2 *ngIf="isSpecial">IF comndtion </h2> 
+
+
+<ul>
+    <li *ngFor="let item of country">
+        {{item}}
+    </li>
+</ul>
+
+<ul *ngFor="let item of people" [ngSwitch]="item.country">
+<li *ngSwitchCase="'Pakistan'" class="text-success"
+>{{item.name}} {{item.country}}</li>
+<li ngSwitchDEfault class="prim"
+>{{item.name}} {{item.country}}</li>
+
+<li *ngSwitchCase="'Ameria'"  class="sec"
+>{{item.name}} {{item.country}}</li>2
+</ul>

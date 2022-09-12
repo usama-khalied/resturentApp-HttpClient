@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddRestoComponent } from './add-resto/add-resto.component';
 import { DatePiComponent } from './date-pi/date-pi.component';
+import { DirectiveComponent } from './directive/directive.component';
 import { FullDetailedComponent } from './full-detailed/full-detailed.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
@@ -17,8 +18,11 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'update/:id', component: UpdateRestoComponent },
   { path: 'update', component: UpdateRestoComponent },
-  { path: '', component: DatePiComponent },
+  { path: '', component: DirectiveComponent },
   { path: 'full-detailed', component: FullDetailedComponent },
+  { path: 'directive', component: DirectiveComponent },
+
+
 ];
 
 @NgModule({

@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-res';
+  currentItem = 'Television';
+  setData(val:any) {
+    console.log(val)
+  }
+  
 }

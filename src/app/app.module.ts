@@ -15,6 +15,9 @@ import { FullDetailedComponent } from './full-detailed/full-detailed.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DatePiComponent } from './date-pi/date-pi.component';
 import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
+import { DirectiveComponent } from './directive/directive.component';
+import { PracdirectiveDirective } from './directive/pracdirective.directive';
+import { ChildComponent } from './child/child.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +28,9 @@ import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
     RegisterComponent,
     FullDetailedComponent,
     DatePiComponent,
+    DirectiveComponent,
+    PracdirectiveDirective,
+    ChildComponent,
 
   ],
   imports: [
@@ -41,4 +47,8 @@ import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    console.log("Hellow to the constructor ")
+  }
+}
