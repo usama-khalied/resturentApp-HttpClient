@@ -6,6 +6,7 @@ import { DirectiveComponent } from './directive/directive.component';
 import { FullDetailedComponent } from './full-detailed/full-detailed.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
+import { PipeComponent } from './pipe/pipe.component';
 import { RegisterComponent } from './register/register.component';
 import { UpdateRestoComponent } from './update-resto/update-resto.component';
 
@@ -18,9 +19,11 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'update/:id', component: UpdateRestoComponent },
   { path: 'update', component: UpdateRestoComponent },
-  { path: '', component: DirectiveComponent },
+  { path: '', component: PipeComponent },
   { path: 'full-detailed', component: FullDetailedComponent },
   { path: 'directive', component: DirectiveComponent },
+  { path: 'directive', component: PipeComponent },
+
 
 
 ];

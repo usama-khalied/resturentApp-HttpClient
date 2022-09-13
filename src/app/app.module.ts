@@ -18,6 +18,8 @@ import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
 import { DirectiveComponent } from './directive/directive.component';
 import { PracdirectiveDirective } from './directive/pracdirective.directive';
 import { ChildComponent } from './child/child.component';
+import { PipeComponent } from './pipe/pipe.component';
+import { PipePipe } from './pipes/pipe.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +33,8 @@ import { ChildComponent } from './child/child.component';
     DirectiveComponent,
     PracdirectiveDirective,
     ChildComponent,
+    PipeComponent,
+    PipePipe,
 
   ],
   imports: [
